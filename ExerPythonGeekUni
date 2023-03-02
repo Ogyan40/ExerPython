@@ -1,0 +1,122 @@
+### Faça um programa que leia um numro inteiro e o imprima ###
+
+num = 45
+print(num)
+
+### Faça um programa que leia um numero real e o imprima ###
+
+num1= 4.5
+print(num1 + 35)
+
+### Peça ao usuario para digitar tres numeros inteiros e imprima a soma deles ###
+
+usu1=int(input("digite um numero inteiro:"))
+usu2=int(input("digite um numero inteiro:"))
+usu3=int(input("Digite um numero inteiro:"))
+
+print(usu1 + usu2 + usu3)
+
+### Leia um numero real e imprima o resultado do quadrado deste numero ###
+
+num4 = 45
+print(num4 ** 2)
+
+### Leia um numero real e imprima a quinta parte deste numero ###
+
+num5 = 88
+print(num5*0.2)
+
+### Leia uma temperatura em graus celsius e apresente-a convertida em graus Fahrenheit. ###
+
+
+tempC = int(input("digite a temperatura em graus Fahrenheit:"))
+
+print((tempC*(9.0/5.0)+32.0))
+
+### Leia uma temperatura em graus Fahrenheit e apresente-a convertida em graus celsius. ###
+
+tempF=int(input("digite a temperatura em graus Celsius:"))
+
+print((tempF*1.8)+32)
+
+### Leia a temperatura em kelvin e apresente convertida em Celsius . ####
+
+tempK=int(input("digite a temperatura em graus Kelvin:"))
+
+print(tempK - 273.15)
+
+
+tempCE=int(input("digite a temperatura em graus Kelvin:"))
+
+print(tempCE + 273.15
+)
+
+### Leia uma velocidade em km/h e aprensente em M/S . #####
+
+vel= int(input("digite a velocidade em KM/H:"))
+
+print(vel/3.6)
+
+### Leia uma velocidade em M/S e aprensente em KM/H . ####
+
+
+vel1= int(input("digite a velocidade em M/S:"))
+print(vel1*3.6)
+
+
+### Leia uma distancia  em KM  e aprensente em milhas . ####
+
+
+dist1= int(input("digite a distancia  em km:"))
+print(dist1/1.61)
+
+### leia um angulo em graus e apresente-o em radianos #####
+
+
+
+graus = int(input("digite o grau desejado:"))
+print(graus*3.14/180)
+
+
+### leia um angulo em graus e apresente-o em radianos #####
+
+
+
+graus = float(input("digite o Radiano desejado:"))
+
+print(graus*180/3.14)
+
+### leia o comprimento  em polegadas  e apresente-o em centimetros  #####
+
+
+
+poleg = float(input("digite as polegadas :"))
+print(poleg*2.54)
+
+### leia o comprimento  em centimetros   e apresente-o em polegadas   #####
+
+
+
+centi  = float(input("digite os centimetros :"))
+
+print(centi/2.54)
+
+### leia o volume em metros cubicos  e apresente-o em litros   #####
+
+
+Lit = float(input("digite os metros cubicos  :"))
+print(1000*Lit)
+
+### leia o volume em litros   e apresente-o em metros cubicos   #####
+
+
+mcb = float(input("digite os valores em Litros  :"))
+
+print(mcb/1000)
+
+### leia o valor da massa em quilogramas    e apresente-o em Libras   #####
+
+
+libras = float(input("digite os valores em quilogramnas  :"))
+
+print(libras/0.45)
